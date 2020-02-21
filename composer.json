@@ -21,7 +21,7 @@
   ],
   "support": {
     "email": "contact@silas229.de",
-    "issues": "https://github.com/silas229/simple-url-shortener"
+    "issues": "https://github.com/silas229/simple-url-shortener/issues/new"
   },
   "autoload": {
     "psr-4": {
