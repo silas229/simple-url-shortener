@@ -61,7 +61,7 @@ if ($_GET['create'] == 1) {
 			<fieldset class="box">
 				<legend class="label subtitle is-4 has-text-centered">Create user account</legend>
 				<div class="field">
-					<label for="email" aria-label="required">e-mail address: <strong><abbr title="required">*</abbr></strong></label>
+					<label for="email" aria-label="required">E-mail address: <strong><abbr title="required">*</abbr></strong></label>
 					<div class="control has-icons-left has-icons-right">
 						<input class="input" type="email" id="email" name="email" autocomplete="email" placeholder="Type in your e-mail address!" required>
 						<span class="icon is-small is-left">
