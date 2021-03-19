@@ -55,7 +55,7 @@ class URLs {
 		$stmt = $this->pdo->query("SELECT * FROM sus_urls");
 		$items = [];
 		while ($item = $stmt->fetch(\PDO::FETCH_ASSOC))
-			$items = $item;
+			$items[] = $item;
 
 		return $items;
 	}
